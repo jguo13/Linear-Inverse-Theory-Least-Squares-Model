@@ -59,9 +59,3 @@ class least_squares(object):
 			model=(self.expa)*xvar+(self.expb)
 			return plt.plot(xvar, model)
 
-
-example=least_squares('data1.dat.txt')
-example.expectation(100,0,1)
-print 'example expectation value a', example.expa
-print 'example expectation value b', example.expa
-example.plot_model()
